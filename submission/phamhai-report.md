@@ -59,8 +59,8 @@ Tôi đã sửa năm trường hợp `position` ở camera hai bên nên bản Z
 
 | File | Mở lại được? | Số shape ảnh 1 (job / file) | Số shape ảnh 2 (job / file) | Tag camera có trong XML? |
 | --- | --- | --- | --- | --- |
-| `phamhai-front.zip` | Có | Chưa đối chiếu tại Job / **12** (A01) | Chưa đối chiếu tại Job / **8** (A02) | Có, `front` |
-| `phamhai-fisheye.zip` | Có | Chưa đối chiếu tại Job / **5** (B01) | Chưa đối chiếu tại Job / **7** (B02) | Có, `fisheye_front` |
+| `phamhai-front.zip` | Có | **12 / 12** (A01) | **8 / 8** (A02) | Có, `front` |
+| `phamhai-fisheye.zip` | Có | **5 / 5** (B01) | **7 / 7** (B02) | Có, `fisheye_front` |
 
 Tôi chạy `road_check lint` trên hai ZIP cuối: đủ 20 ảnh, đủ tag, không kèm ảnh gốc và SHA-256 khớp manifest. Còn **10 cảnh báo**: bốn QC1-02 ở A05/A07/A09, năm QC1-05 về các lane cùng `position` và một QC1-12 ở A08. QC1-02 vẫn cần coach xác nhận ngoại lệ.
 
